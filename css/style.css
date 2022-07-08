@@ -148,7 +148,7 @@ li>a {
     font-size: 15px;
 }
 
-a:hover {
+li >a:hover {
     font-size: 20px;
     transition: 0.5s;
 }
@@ -405,33 +405,43 @@ a:hover {
                                 /*Consumo*/
 
    #usuarios{width: 400px; margin-left: 25px;} 
-   #tele{ margin-left: 20px; margin-top: 5px; width:350px ;}
+   #tele{ margin-right:10px ; width:350px ; margin-top:0 ;}
    #guy{width: 330px; margin-left: 25px;} 
    hr {height: 1px; background-color: black;
     border: 1px solid black;
     border-radius: 20px;}
-
+ .br1{ display: none;}
 
                                 /*Pie*/
 
 
  #pie{background-color: #47555e;  height: 200px; 
-
-
  }
+ #piei{background-color: #47555e;  height: 200px; 
+ } 
                                 #pie>div >p { display: flex;
-                                    justify-content: center;
-                                    align-items: center;
+                                justify-content: center;
+                                align-items: center;
                                 position: relative; left: 8%;
-                                
                                 }
-                                
-                                #piep{ font-size: 19px; top: 65px;color: white;}
-                                #piep2{ font-size: 19px; top: 65px; font: bebas;color: white;}
-                                #piep3 { font-size: 17px; top: 65px; font: bebas;color: rgb(194, 194, 194);}
+
+                                #piei>div >p { display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                position: relative; left: 8%;
+                                }
+
+                                #pie>div >#piep{ font-size: 19px; top: 50px;color: white;}
+                                #pie>div >#piep2{ font-size: 19px; top: 50px; font: bebas;color: white;}
+                                #pie>div >#piep3{ font-size: 17px; top: 50px; font: bebas;color: rgb(194, 194, 194);}
+
+                                #piei>div >#piep{ font-size: 19px; top: 65px;color: white;}
+                                #piei>div > #piep2{ font-size: 19px; top: 65px; font: bebas;color: white;}
+                                #piei>div > #piep3{ font-size: 17px; top: 65px; font: bebas;color: rgb(194, 194, 194);}
                                 #piep2 > a {color: blue;}
                                 #piep > a {color: blue;}
-                                    p {
+                                  
+                                p {
                                         position: relative;
                                         width: 83%;
                                         
@@ -524,7 +534,35 @@ a:hover {
 
 
 @media only screen and (max-width : 1700px) {
-   
+
+    #blanco2 {
+
+        background-color: white;
+        height: 310px;
+        box-shadow: 2px 2px 20px rgb(134, 134, 134);
+        position: relative;
+        top: 50px;
+    }
+
+    #pie>div >#piep{ font-size: 14px; top: 50px;color: white;}
+    #pie>div >#piep2{ font-size: 14px; top: 50px; font: bebas;color: white;}
+    #pie>div >#piep3{ font-size: 12px; top: 50px; font: bebas;color: rgb(194, 194, 194);}
+
+    #piei>div >#piep{ font-size: 14px; top: 65px;color: white;}
+    #piei>div > #piep2{ font-size: 14px; top: 65px; font: bebas;color: white;}
+    #piei>div > #piep3{ font-size: 12px; top: 65px; font: bebas;color: rgb(194, 194, 194);}
+    #piep2 > a {color: blue;}
+    #piep > a {color: blue;}
+      
+    p {
+            position: relative;
+            width: 83%;
+            
+            text-align: justify;
+        
+        }
+
+    .br1{ display: block;}
     #contener2 > a>img{ margin: -25px;  position: relative; top: 0px;transition: 0.3s; transform: scale(0.8,0.8); }
     #intro >#Figuras> #contener2 > a> img:hover{transform: scale(0.9) ; transition: 0.3s;}
     #titulo1 h1 {
@@ -546,7 +584,7 @@ a:hover {
     video {   margin-top: -20px;      }
 
     
-    a:hover {
+   li > a:hover {
         font-size: 18px;
         transition: 0.5s;
     }
